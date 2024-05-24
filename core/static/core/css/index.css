@@ -14,3 +14,19 @@ body{
 .container-fluid{
     min-height: 100%;
 }
+
+a.nav-link {
+    color: white;
+    transition: 0.9s;
+
+}
+a.nav-link:hover {
+    color: white;
+    background-color: #1987547c;
+    transition: 0.9s;
+}
+a.nav-link.active {
+    color: black;
+    font-weight: bold;
+    background-color: #198754;
+}

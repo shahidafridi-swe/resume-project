@@ -1,4 +1,6 @@
 from django.shortcuts import render
 
 def services(request):
-    return render(request, 'service/services.html')
+    context = {'services': 'active'}
+    return render(request, 'service/services.html', context)
+
